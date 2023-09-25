@@ -6,6 +6,9 @@
 // @author       You
 // @match        https://moodle.uco.es/m2324/*
 // @icon         https://moodle.uco.es/m2324/pluginfile.php/1/theme_loove/favicon/1687370320/favicon.ico
+// @homepage     https://github.com/javism/TampermonkeyScripts
+// @updateURL    https://raw.githubusercontent.com/javism/TampermonkeyScripts/main/moodlecompact.js
+// @downloadURL  https://raw.githubusercontent.com/javism/TampermonkeyScripts/main/moodlecompact.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
