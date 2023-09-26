@@ -12,6 +12,10 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-GM_addStyle('@media (min-width: 768px) {  .activity-item:not(.activityinline) {    padding: 0.5rem;  }}.activityiconcontainer {	width: 30px;	height: 30px;	border-radius: 4px;	padding: .7rem;} body {	line-height: 1.1;} .activity-item:not(.activityinline) {	padding: .3rem;}');
+GM_addStyle('@media (min-width: 768px) {  .activity-item:not(.activityinline) {    padding: 0.5rem;  }}')
+GM_addStyle('.activityiconcontainer {	width: 30px;	height: 30px;	border-radius: 4px;	padding: .7rem;}')
+GM_addStyle('body {	line-height: 1.1; font-size: 0.85rem;} .activity-item:not(.activityinline) {	padding: .3rem;}');
+GM_addStyle('.section .activity { list-style: none;	padding: .10rem 0;}');
+GM_addStyle('.activity-item:not(.activityinline) { padding: .2rem; }');
 
 console.log('ran');
